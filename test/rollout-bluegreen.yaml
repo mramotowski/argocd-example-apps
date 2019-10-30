@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: argoproj/rollouts-demo:red
+        image: argoproj/rollouts-demo:green
         ports:
         - containerPort: 80
   minReadySeconds: 30
